@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kysakiii - À votre service</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #00133f;
+      color: white;
+    }
+    header {
+      background-color: #00133f;
+      color: #ffd300;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header img {
+      width: 160px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #ffd300;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #00133f;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: white;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .service-card {
+      background-color: #0a1b5f;
+      border-radius: 15px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+    .service-card:hover {
+      background-color: #132b85;
+      transform: translateY(-5px);
+    }
+    .service-card h3 {
+      color: #ffd300;
+    }
+    .contact-btn {
+      background-color: #ffd300;
+      color: #00133f;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    .contact-btn:hover {
+      background-color: white;
+    }
+    footer {
+      background-color: #0a1b5f;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      color: #ffd300;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-kysakiii.jpg" alt="Logo Kysakiii">
+    <h1>Kysakiii</h1>
+    <p>“Kysakiii à votre service !”</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="accueil">
+    <h2>Bienvenue chez Kysakiii</h2>
+    <p>Découvrez nos services créatifs et nos produits uniques !</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>🎨 Conception Visuelle</h3>
+        <p>Création de logos, affiches et visuels personnalisés pour tous vos besoins.</p>
+      </div>
+      <div class="service-card">
+        <h3>🛍️ Ventes d’Articles</h3>
+        <p>Produits stylés et originaux disponibles directement via nos canaux officiels.</p>
+      </div>
+      <div class="service-card">
+        <h3>📰 Faits Divers</h3>
+        <p>Restez informés avec nos publications sur les sujets d’actualité et d’intérêt.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Envie d’échanger ou de collaborer ? Retrouvez-nous sur Facebook ou contactez-nous directement !</p>
+
+    <p>📞 Tél : <strong>034 16 385 77</strong></p>
+    <p>💬 WhatsApp : <strong>032 68 567 83</strong></p>
+
+    <a href="https://www.facebook.com/kysakiii" target="_blank" class="contact-btn">📘 Page Facebook</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Kysakiii — Tous droits réservés</p>
+    <p>“Kysakiii à votre service !”</p>
